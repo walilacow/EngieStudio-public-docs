@@ -38,10 +38,10 @@
     <li>歷史紀錄預設開啟，並有大小上限（預設 20 MB，最高 100 MB）；超過上限時會自動刪除最舊的紀錄。</li>
     <li>歷史紀錄是以未加密的文字檔存在 App 的資料夾內。如果你和別人開會，紀錄可能包含其他人說的話；請在需要時關閉儲存或清除紀錄。錄音檔同理。</li>
     <li>預設情況下 App 不會錄下聲音。若你在「設定」開啟「儲存錄音」，錄音檔只存在你的手機裡，不會上傳，也不包含在 iCloud 或電腦備份中；你可以在歷史紀錄刪除單段，或在設定清除全部錄音。錄音需要先開啟「儲存歷史紀錄」；按「清除全部歷史紀錄」時，歷史紀錄裡的錄音也會一併刪除。</li>
-    <li>錄音有獨立的容量上限（預設 200 MB，可調整到 1 GB）；空間不足時會先刪除最舊的錄音，文字紀錄仍會保留。</li>
+    <li>錄音有獨立的清理容量（預設 200 MB，可在 50 MB 到 1 GB 之間調整）。超過設定容量時，會清理最舊的可刪錄音，文字紀錄仍會保留；正在錄製及剛完成的那一段會保留，因此可能暫時超過設定值。如果手機實際儲存空間不足，錄音可能中斷，已錄到的部分會保留，字幕會繼續。</li>
     <li>錄下他人說話前，請先取得同意，並遵守當地法律。</li>
     <li>你也可以匯入手機裡的錄音檔，轉成逐字稿並翻譯。匯入的檔案只在處理時暫存在手機上，處理完就刪除，不會另存或上傳；你選擇存進歷史紀錄的，只有逐字稿與翻譯文字。</li>
-    <li>刪除 App 會一併刪除這些紀錄。如果你開啟了 iCloud 或電腦備份，紀錄可能包含在 Apple 的裝置備份中，由 Apple 依照你的設定處理。</li>
+    <li>刪除 App 會一併刪除這些紀錄。如果你開啟了 iCloud 或電腦備份，文字歷史紀錄可能包含在 Apple 的裝置備份中（錄音檔不包含），由 Apple 依照你的設定處理。</li>
   </ul>
 
   <h2>3. App 會要求的權限</h2>
@@ -88,10 +88,10 @@
     <li>History is on by default with a size cap (20 MB by default, up to 100 MB); when the cap is reached the oldest entries are deleted automatically.</li>
     <li>History is stored as an unencrypted text file inside the app's storage. If you are in a meeting it may include what other people said; turn saving off or clear history when needed. The same applies to recordings.</li>
     <li>By default the app does not record audio. If you turn on "Save recordings" in Settings, recordings stay on your phone, are never uploaded and are excluded from iCloud and computer backups. You can delete a single recording in History or clear all recordings in Settings. Recording requires "Save history" to be on, and "Clear all history" also deletes the recordings in your history.</li>
-    <li>Recordings have their own storage cap (200 MB by default, adjustable up to 1 GB); when space runs out the oldest recordings are deleted first and the text history is kept.</li>
+    <li>Recordings have their own cleanup limit (200 MB by default, adjustable from 50 MB to 1 GB). When recordings exceed this limit, the oldest removable recordings are cleaned up and the text history is kept; the recording in progress and the one just finished are always kept, so usage may temporarily exceed the limit. If your phone actually runs out of storage, recording may stop; what was already recorded is kept and captions continue.</li>
     <li>Recording other people may require their consent under local law.</li>
     <li>You can also import an audio file from your phone to transcribe and translate it. The imported file is copied to temporary storage on your phone only while it is processed, then deleted; it is never kept or uploaded. If you save the result to History, only the transcript and translation text are saved.</li>
-    <li>Deleting the app deletes this history. If you use iCloud or computer backups, it may be included in your Apple device backup, handled by Apple according to your settings.</li>
+    <li>Deleting the app deletes this history. If you use iCloud or computer backups, the text history may be included in your Apple device backup (recordings are not), handled by Apple according to your settings.</li>
   </ul>
 
   <h2>3. Permissions</h2>
