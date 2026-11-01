@@ -49,8 +49,8 @@
 <tbody>
 <tr>
 <td>照片</td>
-<td>照片與影片的縮圖、拍攝日期、尺寸、檔案大小、是否為螢幕截圖或原況照片</td>
-<td>比對相似與重複的照片、找出品質不佳的照片、螢幕截圖、大型影片與原況照片；您確認後才會刪除或轉成靜態照片</td>
+<td>照片與影片的縮圖、拍攝日期、尺寸、檔案大小、是否為螢幕截圖或原況照片；打開照片詳情時，另外確認原檔是否存在手機上（不會從 iCloud 下載）</td>
+<td>比對相似與重複的照片、找出品質不佳的照片、螢幕截圖、大型影片與原況照片；計算可釋放空間時排除只存在 iCloud 的原檔；您確認後才會刪除或轉成靜態照片</td>
 </tr>
 <tr>
 <td>聯絡人</td>
@@ -59,24 +59,29 @@
 </tr>
 <tr>
 <td>行事曆</td>
-<td>事件的標題、時間、提醒設定</td>
-<td>找出已結束但仍設有提醒的事件（只列出，請到「行事曆」App 調整）與沒有標題的事件（您確認後才會刪除）</td>
+<td>事件的標題、時間、提醒設定；訂閱行事曆事件的網址</td>
+<td>找出已結束但仍設有提醒的事件（只列出，請到「行事曆」App 調整）與沒有標題的事件（您確認後才會刪除）；另以標題、網址與筆數推估是否有可疑的訂閱行事曆（安全建議，只讀這三項、不上傳）</td>
 </tr>
 <tr>
 <td>提醒事項</td>
 <td>提醒的標題與完成狀態</td>
 <td>找出已完成但仍堆積的提醒；您確認後才會刪除</td>
 </tr>
+<tr>
+<td>位置（使用 App 期間）</td>
+<td>不讀取、不記錄您的位置。iOS 規定要有位置權限才能讀取目前連線 Wi‑Fi 的加密方式</td>
+<td>判斷您連線的 Wi‑Fi 是否為開放（未加密）網路。只在您於「Wi‑Fi」這一項按下授權時才會詢問；不收集、不上傳位置或 Wi‑Fi 名稱</td>
+</tr>
 </tbody>
 </table>
 <p>不需要權限的檢查會讀取：儲存空間總量與可用量、電量與充電狀態、低耗電模式與裝置熱度等級、本 App 可用的記憶體、是否設定螢幕鎖定、iOS 版本，以及本 App 取得了哪些權限。這些資訊只用來在畫面上顯示。</p>
 <p>您可以隨時在「設定 › 數俗幫你檢查手機」關閉任一權限；關閉後對應的檢查會被略過，其他功能照常使用。</p>
 <h2>資料保存在哪裡</h2>
-<p>為了顯示歷史紀錄、續掃中斷的健檢、記住「已忽略」的建議與您的偏好設定，App 會在<strong>本機（App 內部儲存空間）</strong>保存掃描進度、檢查結果摘要（例如分數、項目數量、可釋放的容量，以及被標記項目的顯示資訊，如重複聯絡人的姓名、電話或電子郵件）和設定值。這些資料不會離開您的手機。歷史報告只存在您的手機上，可在「設定 › 清除歷史」一次全部刪除（包含其中記錄的聯絡人姓名與電話）；「重設掃描資料」只清除掃描進度並取消所有忽略，不會刪除歷史報告。尚未完成的掃描所暫存的結果（可能含聯絡人姓名、電話）不屬於歷史報告，不在「清除歷史」範圍，可用「設定 › 重設掃描資料」清除。刪除 App 也會全部清除。</p>
+<p>為了顯示歷史紀錄、續掃中斷的健檢、記住「已忽略」的建議與您的偏好設定，App 會在<strong>本機（App 內部儲存空間）</strong>保存掃描進度、檢查結果摘要（例如分數、項目數量、可釋放的容量，以及被標記項目的顯示資訊，如重複聯絡人的姓名、電話或電子郵件）和設定值。這些資料不會離開您的手機。歷史報告只存在您的手機上，可在「設定 › 清除歷史」一次全部刪除（包含其中記錄的聯絡人姓名與電話）；「重設掃描資料與已忽略項目」只清除掃描進度並取消所有忽略，不會刪除歷史報告。尚未完成的掃描所暫存的結果（可能含聯絡人姓名、電話）不屬於歷史報告，不在「清除歷史」範圍，可用「設定 › 重設掃描資料與已忽略項目」清除。刪除 App 也會全部清除。</p>
 <h2>刪除與復原</h2>
 <ul>
 <li><strong>照片與影片</strong>：App 先讓您預覽並勾選，再由 iOS 系統對話框再次確認；刪除的項目會先進入「最近刪除」，在 iOS 保留期間內可復原。原況照片轉成靜態照片時，會先建立靜態照片，再由系統詢問是否刪除原件。</li>
-<li><strong>聯絡人</strong>：合併或刪除<strong>無法復原</strong>，執行前會再次確認。</li>
+<li><strong>聯絡人</strong>：合併或刪除<strong>無法復原</strong>，執行前會再次確認。確認畫面可以先把這次要處理的聯絡人存成 vCard（.vcf）備份檔，要不要存、存在哪裡由您決定；之後可在「檔案」App 點這個檔案匯回「聯絡人」。備份檔只存在您選擇的位置，App 不會上傳；App 為了交給分享面板而暫時產生的檔案只存在 App 內部的暫存區，會在下次備份或下次開啟 App 時刪除。</li>
 <li><strong>行事曆事件、提醒事項</strong>：刪除前會再次確認。</li>
 <li>App 不會自動刪除任何東西。</li>
 </ul>
@@ -118,8 +123,8 @@
 <tbody>
 <tr>
 <td>Photos</td>
-<td>Thumbnails, capture date, dimensions, file size, and whether an item is a screenshot or Live Photo</td>
-<td>Finding similar and duplicate photos, low-quality photos, screenshots, large videos and Live Photos. Items are deleted or converted only after you confirm</td>
+<td>Thumbnails, capture date, dimensions, file size, and whether an item is a screenshot or Live Photo. When you open a photo group's details, the app also checks whether each original is stored on your phone (nothing is downloaded from iCloud)</td>
+<td>Finding similar and duplicate photos, low-quality photos, screenshots, large videos and Live Photos, and leaving originals stored only in iCloud out of the freeable space. Items are deleted or converted only after you confirm</td>
 </tr>
 <tr>
 <td>Contacts</td>
@@ -128,24 +133,29 @@
 </tr>
 <tr>
 <td>Calendars</td>
-<td>Event titles, times, alert settings</td>
-<td>Finding ended events that still have alerts (listed only; adjust them in the Calendar app) and events without a title (deleted only after you confirm)</td>
+<td>Event titles, times, alert settings; links of events in subscribed calendars</td>
+<td>Finding ended events that still have alerts (listed only; adjust them in the Calendar app) and events without a title (deleted only after you confirm); also estimating from titles, links and counts whether a calendar subscription looks suspicious (a security tip; only those are read, nothing is uploaded)</td>
 </tr>
 <tr>
 <td>Reminders</td>
 <td>Reminder titles and completion status</td>
 <td>Finding completed reminders that have piled up. Reminders are deleted only after you confirm</td>
 </tr>
+<tr>
+<td>Location (while using the app)</td>
+<td>Your location is not read or recorded. iOS requires location permission before an app can read the security type of the Wi‑Fi you're connected to</td>
+<td>Telling whether your Wi‑Fi is open (unencrypted). Asked only when you tap Allow on the Wi‑Fi item; your location and Wi‑Fi name are never collected or uploaded</td>
+</tr>
 </tbody>
 </table>
 <p>Checks that need no permission read: total and available storage, charge level and charging state, Low Power Mode and the device's thermal level, memory available to the app, whether a screen lock is set, the iOS version, and which permissions this app holds. This information is only shown on screen.</p>
 <p>You can turn off any permission at any time in Settings › Phone Checkup. The matching check is then skipped; everything else keeps working.</p>
 <h2>Where data is stored</h2>
-<p>To show history, resume interrupted checks, remember items you chose to ignore, and keep your preferences, the app stores scan progress, result summaries (for example scores, item counts, reclaimable size, and display details of flagged items, such as the names, phone numbers or email addresses of duplicate contacts) and settings <strong>locally in the app's own storage</strong>. This data never leaves your phone. Past reports exist only on your phone and can be deleted all at once in Settings › Clear history (including any contact names and phone numbers recorded in them); "Reset scan data" only clears scan progress and un-ignores everything, and does not delete past reports. Temporary results of a scan that has not finished (which may include contact names and phone numbers) are not part of past reports and are not covered by "Clear history"; you can remove them with Settings › Reset scan data. Deleting the app also removes all of it.</p>
+<p>To show history, resume interrupted checks, remember items you chose to ignore, and keep your preferences, the app stores scan progress, result summaries (for example scores, item counts, reclaimable size, and display details of flagged items, such as the names, phone numbers or email addresses of duplicate contacts) and settings <strong>locally in the app's own storage</strong>. This data never leaves your phone. Past reports exist only on your phone and can be deleted all at once in Settings › Clear history (including any contact names and phone numbers recorded in them); "Reset scan data and ignored items" only clears scan progress and un-ignores everything, and does not delete past reports. Temporary results of a scan that has not finished (which may include contact names and phone numbers) are not part of past reports and are not covered by "Clear history"; you can remove them with Settings › Reset scan data and ignored items. Deleting the app also removes all of it.</p>
 <h2>Deleting and recovering</h2>
 <ul>
 <li><strong>Photos and videos</strong>: you preview and select items in the app, then iOS asks you to confirm. Deleted items go to Recently Deleted first and can be recovered during iOS's retention period. When a Live Photo is converted to a still photo, a still copy is created first and the system then asks whether to delete the original.</li>
-<li><strong>Contacts</strong>: merging or deleting <strong>cannot be undone</strong>. The app asks you to confirm first.</li>
+<li><strong>Contacts</strong>: merging or deleting <strong>cannot be undone</strong>. The app asks you to confirm first. On the confirmation screen you can first save the contacts involved as a vCard (.vcf) backup; whether and where to save it is up to you, and you can later tap the file in the Files app to import it back into Contacts. The backup is stored only where you choose, and the app never uploads it; the temporary copy the app creates for the share sheet stays only in the app's own temporary storage and is deleted the next time you make a backup or open the app.</li>
 <li><strong>Calendar events and reminders</strong>: the app asks you to confirm before deleting.</li>
 <li>The app never deletes anything automatically.</li>
 </ul>
@@ -187,8 +197,8 @@
 <tbody>
 <tr>
 <td>写真</td>
-<td>写真・動画のサムネール、撮影日、サイズ、ファイル容量、スクリーンショットやLive Photosかどうか</td>
-<td>類似・重複写真、品質の低い写真、スクリーンショット、大きい動画、Live Photosの検出。削除や静止画への変換は、確認後にのみ行います</td>
+<td>写真・動画のサムネール、撮影日、サイズ、ファイル容量、スクリーンショットやLive Photosかどうか。写真の詳細を開いたときに、元のファイルが端末内にあるかどうかも確認します（iCloudからダウンロードはしません）</td>
+<td>類似・重複写真、品質の低い写真、スクリーンショット、大きい動画、Live Photosの検出と、解放できる容量からiCloudにだけある元ファイルを除くこと。削除や静止画への変換は、確認後にのみ行います</td>
 </tr>
 <tr>
 <td>連絡先</td>
@@ -197,24 +207,29 @@
 </tr>
 <tr>
 <td>カレンダー</td>
-<td>予定のタイトル、日時、通知設定</td>
-<td>終了済みで通知が残っている予定（一覧表示のみ。「カレンダー」App で調整してください）と、タイトルのない予定（確認後にのみ削除）の検出</td>
+<td>予定のタイトル、日時、通知設定。購読カレンダーの予定のリンク</td>
+<td>終了済みで通知が残っている予定（一覧表示のみ。「カレンダー」App で調整してください）と、タイトルのない予定（確認後にのみ削除）の検出。あわせて、タイトル・リンク・件数から不審なカレンダー購読を推定します（セキュリティのヒント。読み取るのはこれらだけで、アップロードしません）</td>
 </tr>
 <tr>
 <td>リマインダー</td>
 <td>リマインダーのタイトルと完了状況</td>
 <td>完了したままたまっているリマインダーの検出。削除は確認後にのみ行います</td>
 </tr>
+<tr>
+<td>位置情報（App の使用中）</td>
+<td>位置情報は読み取らず、記録もしません。iOS では、接続中の Wi‑Fi の暗号化方式を読み取るのに位置情報の許可が必要です</td>
+<td>接続中の Wi‑Fi がオープン（暗号化なし）かどうかの判定。「Wi‑Fi」の項目で許可を押したときにだけ確認します。位置情報や Wi‑Fi 名を収集・送信することはありません</td>
+</tr>
 </tbody>
 </table>
 <p>権限が不要なチェックでは、ストレージの総容量と空き容量、充電残量と充電状態、低電力モードとデバイスの温度状態、アプリが使えるメモリ、画面ロックの設定有無、iOSのバージョン、このアプリが取得している権限を読み取ります。これらは画面に表示するためだけに使います。</p>
 <p>「設定 › スマホ健診」でいつでも権限をオフにできます。オフにすると該当のチェックはスキップされ、ほかの機能は通常どおり使えます。</p>
 <h2>データの保存場所</h2>
-<p>履歴の表示、中断したチェックの再開、無視した提案の記憶、設定の保存のために、アプリは<strong>アプリ内部のストレージ（端末内）</strong>に、スキャンの進捗、結果の概要（スコア、項目数、解放可能な容量、および対象項目の表示情報。たとえば重複した連絡先の氏名・電話番号・メールアドレス）、設定値を保存します。これらのデータが端末の外に出ることはありません。過去のレポートは端末内にのみ保存され、「設定 › 履歴を消去」でまとめて削除できます（レポートに含まれる連絡先の氏名・電話番号も削除されます）。「スキャンデータをリセット」は、スキャンの進捗を消去して無視をすべて解除するだけで、過去のレポートは削除しません。完了していないスキャンの一時的な結果（連絡先の氏名・電話番号を含む場合があります）は過去のレポートではなく、「履歴を消去」の対象外です。「設定 › スキャンデータをリセット」で消去できます。アプリを削除してもすべて消去されます。</p>
+<p>履歴の表示、中断したチェックの再開、無視した提案の記憶、設定の保存のために、アプリは<strong>アプリ内部のストレージ（端末内）</strong>に、スキャンの進捗、結果の概要（スコア、項目数、解放可能な容量、および対象項目の表示情報。たとえば重複した連絡先の氏名・電話番号・メールアドレス）、設定値を保存します。これらのデータが端末の外に出ることはありません。過去のレポートは端末内にのみ保存され、「設定 › 履歴を消去」でまとめて削除できます（レポートに含まれる連絡先の氏名・電話番号も削除されます）。「スキャンデータと無視した項目をリセット」は、スキャンの進捗を消去して無視をすべて解除するだけで、過去のレポートは削除しません。完了していないスキャンの一時的な結果（連絡先の氏名・電話番号を含む場合があります）は過去のレポートではなく、「履歴を消去」の対象外です。「設定 › スキャンデータをリセット」で消去できます。アプリを削除してもすべて消去されます。</p>
 <h2>削除と復元</h2>
 <ul>
 <li><strong>写真・動画</strong>：アプリ内でプレビューして選択し、さらにiOSの確認ダイアログで確定します。削除した項目はまず「最近削除した項目」に入り、iOSの保持期間中は復元できます。Live Photosを静止画に変換する場合は、先に静止画を作成し、そのあと元のデータを削除するかをシステムが確認します。</li>
-<li><strong>連絡先</strong>：統合・削除は<strong>元に戻せません</strong>。実行前に再確認します。</li>
+<li><strong>連絡先</strong>：統合・削除は<strong>元に戻せません</strong>。実行前に再確認します。確認画面で、対象の連絡先を先に vCard（.vcf）ファイルとしてバックアップできます。保存するかどうか、どこに保存するかはあなたが決めます。あとで「ファイル」App でこのファイルをタップすると「連絡先」に読み込めます。バックアップファイルはあなたが選んだ場所にのみ保存され、アプリがアップロードすることはありません。共有シートに渡すためにアプリが一時的に作成するファイルはアプリ内部の一時領域にのみ置かれ、次回バックアップするとき、または次回アプリを開いたときに削除されます。</li>
 <li><strong>カレンダーの予定・リマインダー</strong>：削除前に確認します。</li>
 <li>アプリが自動で何かを削除することはありません。</li>
 </ul>
